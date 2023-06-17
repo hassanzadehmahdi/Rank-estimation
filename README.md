@@ -1,5 +1,5 @@
 # rank_estimation
-In this program, I used the KNN model to estimate Iranian universities' entrance exam (konkur) rank, and I also developed a telegram bot so users could use it.
+In this program, I have implemented the K-Nearest Neighbors (KNN) model to estimate the entrance exam (konkur) rank for Iranian universities. Additionally, I have developed a Telegram bot that allows users to conveniently utilize this functionality. The KNN algorithm, a popular machine learning technique, utilizes the concept of proximity to classify or estimate unknown data points based on the characteristics of their neighboring points. By training the model with a dataset comprising relevant features and corresponding entrance exam ranks, it becomes capable of predicting ranks for new instances. The Telegram bot serves as a user-friendly interface, enabling users to input their specific data and receive estimated entrance exam ranks promptly. This project aims to provide a valuable tool for Iranian students to gauge their performance and make informed decisions regarding university admissions.
 These are two picture of the ranking telegram bot: 
 
 ![1](https://user-images.githubusercontent.com/45950266/226140656-f3d5d2c3-a6a1-4c71-ac63-8e85d778ae4c.png) ![2](https://user-images.githubusercontent.com/45950266/226140661-772f4a0a-9f9f-4ce8-9025-7b829c9a786b.png)
