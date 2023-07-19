@@ -283,10 +283,10 @@ def avg(
 
 def main() -> None:
     """Run the bot."""
-    # Create the Application and pass it your bot's token.
+    # Create the Application and pass it to your bot's token.
     application = (
         Application.builder()
-        .token("6256343745:AAH9UzPvRWg_8rLPnb4jmKhkz9KuyWydAPw")
+        .token("#YOUR_TOKEN")
         .build()
     )
 
@@ -338,7 +338,7 @@ def main() -> None:
     application.add_handler(unsupported_handler)
     unknown_handler = MessageHandler(filters.TEXT & (~filters.COMMAND), unknown)
     application.add_handler(unknown_handler)
-    # Run the bot until the user presses Ctrl-C
+    # Run the bot until the user presses the Ctrl-C
     application.run_polling()
 
 
